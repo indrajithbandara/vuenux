@@ -2,25 +2,25 @@
   <section class="container">
     <div>
       <chart/>
-      <h1 class="title">
-        vuenux
-      </h1>
-      <h2 class="subtitle">
-        coba nuxt project
-      </h2>
+      <years/>
+      <h1 class="title">vuenux Years</h1>
     </div>
   </section>
 </template>
 
 <script>
 import Chart from '~/components/Chart.vue'
+import Years from '~/components/Years.vue'
 
 export default {
   components: {
-    Chart
+    Chart,
+    Years
   }
 }
 </script>
+
+
 
 <style>
 .container {
@@ -38,14 +38,16 @@ export default {
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 38px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+  text-transform: capitalize;
 }
 
 .links {
