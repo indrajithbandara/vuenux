@@ -9,6 +9,8 @@
 import Vue from 'vue'
 import yearlist from '@/assets/json/years.json'
 
+// https://raw.githubusercontent.com/toybreaker/anivanilla/gh-pages/data/years.json
+
 yearlist.forEach(x => {
   console.log(x.year, x.animal, x.element)
 })
@@ -21,7 +23,7 @@ export default {
 </script>
 
 <style scoped>
->* {
+.years > * {
   font-weight: normal;
   color: white;
 }

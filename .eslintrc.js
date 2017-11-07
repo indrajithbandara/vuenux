@@ -11,6 +11,9 @@ module.exports = {
     'html'
   ],
   // add your custom rules here
-  rules: {},
+  // https://eslint.org/docs/developer-guide/shareable-configs
+  rules: {
+    quotes: [2, "double"];
+  }
   globals: {}
 }

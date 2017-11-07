@@ -10,8 +10,8 @@
 
       <years/>
 
-      <h1 class="title">vuenux Years</h1>
-      
+      <h1 class="title">Years</h1>
+
     </div>
   </section>
 </template>

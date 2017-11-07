@@ -1,12 +1,12 @@
 module.exports = {
-  css: [
-    // Load a node module directly (here it's a SASS file)
-    'bulma',
-    // CSS file in the project
-    '@/assets/css/main.css',
-    // SCSS file in the project
-    '@/assets/css/main.scss'
-  ],
+  // css: [
+  //   // Load a node module directly (here it's a SASS file)
+  //   'bulma',
+  //   // CSS file in the project
+  //   '@/assets/css/main.css',
+  //   // SCSS file in the project
+  //   '@/assets/css/main.scss'
+  // ],
 
   //mode: 'spa',
   /*

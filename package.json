@@ -5,7 +5,7 @@
   "author": "toybreaker <rokmabox@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --spa",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "axios": "^0.17.0",
     "bulma": "^0.6.1",
     "nuxt": "^1.0.0-rc9"
   },
