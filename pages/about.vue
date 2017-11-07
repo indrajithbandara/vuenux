@@ -2,22 +2,18 @@
   <section class="container">
     <div>
       <chart/>
-      <years/>
-      <h1 class="title">vuenux Years</h1>
-      <router-link to="/about">About</router-link>
-
+      <h1 class="title">About</h1>
+      <router-link to="/">home</router-link>
     </div>
   </section>
 </template>
 
 <script>
 import Chart from '~/components/Chart.vue'
-import Years from '~/components/Years.vue'
 
 export default {
   components: {
-    Chart,
-    Years
+    Chart
   }
 }
 </script>
