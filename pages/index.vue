@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+      <chart/>
       <h1 class="title">
         vuenux
       </h1>
@@ -13,11 +13,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Chart from '~/components/Chart.vue'
 
 export default {
   components: {
-    Logo
+    Chart
   }
 }
 </script>
