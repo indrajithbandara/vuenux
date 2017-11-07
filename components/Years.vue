@@ -1,21 +1,28 @@
 <template>
-  <div class="years">
-    <div class="years_title">Year Cycles</div>
+<div class="years">
+  <div class="years_title">Year Cycles</div>
 
-  </div>
+</div>
 </template>
 
 <script>
-  import yearlist from '@/assets/json/years.json'
+import Vue from 'vue'
+import yearlist from '@/assets/json/years.json'
 
-  yearlist.forEach(x => {
-    console.log(x.year, x.animal, x.element)
-  })
+yearlist.forEach(x => {
+  console.log(x.year, x.animal, x.element)
+})
+
+Vue.use(yearlist)
+
+export default {
+  name: 'Years'
+}
 </script>
 
 <style scoped>
-  > * {
-    font-weight: normal;
-    color: red;
-  }
+>* {
+  font-weight: normal;
+  color: white;
+}
 </style>
