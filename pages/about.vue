@@ -9,7 +9,7 @@
       <years/>
 
       <h1 class="title">About</h1>
-      <yeajso/>
+
 
     </div>
   </section>
@@ -18,13 +18,11 @@
 <script>
   import Chart from '~/components/Chart.vue'
   import Years from '~/components/Years.vue'
-  import Yeajso from '~/components/Yeajso.vue'
 
   export default {
     components: {
       Chart,
-      Years,
-      Yeajso
+      Years
     }
   }
 </script>
