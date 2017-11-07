@@ -15,4 +15,9 @@
     max-width: 700px;
     margin: 0 auto;
   }
+  .chart img {
+    min-width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 </style>

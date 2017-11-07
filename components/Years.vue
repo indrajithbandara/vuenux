@@ -1,6 +1,6 @@
 <template>
 <div class="years">
-  <div class="years_title">Year Cycles</div>
+  <div class="years_title"> yeah! using: 'years.json' • look at console!</div>
 
 </div>
 </template>
