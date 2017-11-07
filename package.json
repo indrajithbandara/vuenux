@@ -5,7 +5,7 @@
   "author": "toybreaker <rokmabox@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt --spa",
+    "dev": "nuxt --spa --fix",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -15,7 +15,8 @@
   "dependencies": {
     "axios": "^0.17.0",
     "bulma": "^0.6.1",
-    "nuxt": "^1.0.0-rc9"
+    "nuxt": "^1.0.0-rc9",
+    "vue-meta": "^1.3.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

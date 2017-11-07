@@ -6,24 +6,21 @@
         <chart/>
       </router-link>
 
-      <years/>
-
-      <h1 class="title">About</h1>
       <yeajso/>
+
+      <h1 class="title">jso</h1>
 
     </div>
   </section>
 </template>
 
 <script>
-  import Chart from '~/components/Chart.vue'
-  import Years from '~/components/Years.vue'
   import Yeajso from '~/components/Yeajso.vue'
+  import Chart from '~/components/Chart.vue'
 
   export default {
     components: {
       Chart,
-      Years,
       Yeajso
     }
   }

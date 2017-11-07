@@ -1,27 +1,31 @@
 <template>
-<div class="yeajso">
-
-  <div class="years_title">yeajso</div>
-  <h5>{{ title }}</h5>
-
-</div>
+  <ul id="example-1">
+    <li v-for="item in items">
+      {{ item.message }}
+    </li>
+  </ul>
 </template>
 
 <script>
-import axios from 'axios'
+  import Vue from 'vue'
 
-export default {
-  name: 'Yeajso',
-  async asyncData ({ params }) {
-    let { data } = await axios.get(`https://raw.githubusercontent.com/toybreaker/anivanilla/gh-pages/data/years.json/${params.id}`)
-    return { title: data.animal }
-  }
-}
+  var vm = new Vue({
+    el: '#example-1',
+    data: {
+      items: [
+        { message: 'Foo' },
+        { message: 'Bar' },
+        { message: '2Foo' },
+        { message: '2Bar' }
+      ]
+    }
+  })
+  console.log(vm.message)
 </script>
 
 <style scoped>
-> * {
-  font-weight: normal;
-  color: white;
-}
+  > * {
+    font-weight: normal;
+    color: white;
+  }
 </style>

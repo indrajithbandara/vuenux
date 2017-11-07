@@ -3,29 +3,27 @@
     <div>
 
       <router-link to="/about">
-
         <chart/>
-
       </router-link>
 
-      <years/>
+      <router-link to="/jso">
+        <h3>Json test page</h3>
+      </router-link>
 
-      <h1 class="title">Years</h1>
+      <h1 class="title">Home</h1>
 
     </div>
   </section>
 </template>
 
 <script>
-import Chart from '~/components/Chart.vue'
-import Years from '~/components/Years.vue'
+  import Chart from '~/components/Chart.vue'
 
-export default {
-  components: {
-    Chart,
-    Years
+  export default {
+    components: {
+      Chart
+    }
   }
-}
 </script>
 
 <style>
