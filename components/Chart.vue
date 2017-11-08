@@ -12,12 +12,13 @@
 
 <style scoped>
   .chart {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
+    overflow: hidden;
   }
   .chart img {
     min-width: 50%;
-    max-width: 100%;
+    max-width: 500px;
     margin: 0 auto;
   }
 </style>
